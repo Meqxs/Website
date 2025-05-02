@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #000;
+    color: #fff;
+    overflow-x: hidden;
+  }
+
+  body {
+    /* Set the background image */
+    background-image: url('Big_Sur_6.jpg'); /* Make sure the image is in the same folder as this CSS file */
+
+    /* Optional: Set the background size to cover the entire page */
+    background-size: cover;
+
+    /* Optional: Make sure the background doesn't repeat */
+    background-repeat: no-repeat;
+
+    /* Optional: Center the background image */
+    background-position: center;
+    
+    /* Optional: Set a solid color as fallback */
+    background-color: #f0f0f0; /* Light gray */
+  }
+  
+  a {
+    transition: all 0.3s ease;
+  }
+  
+  .hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: fadeSlideIn 1s ease forwards;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    animation: fadeSlideIn 1s ease 0.2s forwards;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #ccc;
+    animation: fadeSlideIn 1s ease 0.4s forwards;
+  }
+  
+  .hero-btn {
+    margin-top: 30px;
+    padding: 12px 24px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+  }
+  
+  .hero-btn:hover {
+    background: white;
+    color: black;
+  }
+  
+  .projects-section {
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .projects-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    animation: fadeSlideIn 1s ease;
+  }
+  
+  .projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .project-card {
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 30px;
+    width: 280px;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    box-shadow: 0 0 20px rgba(255,255,255,0.05);
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  
+  .project-card.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    color: #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .project-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .project-card a {
+    border: 2px solid white;
+    padding: 8px 16px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .project-card a:hover {
+    background: white;
+    color: black;
+  }
+  
+  .contact-section {
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    animation: fadeSlideIn 1s ease;
+  }
+  
+  .contact-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .contact-card {
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 30px;
+    width: 250px;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  
+  .contact-card.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .contact-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .contact-card p {
+    color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .contact-card a {
+    color: white;
+    border: 2px solid white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .contact-card a:hover {
+    background: white;
+    color: black;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  @keyframes fadeSlideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
