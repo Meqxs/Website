@@ -13,16 +13,13 @@
   }
 
   body {
-    /* Set the background image */
-    background-image: url('Big_Sur_6.jpg'); /* Make sure the image is in the same folder as this CSS file */
 
-    /* Optional: Set the background size to cover the entire page */
+    background-image: url('Big_Sur_6.jpg'); 
+      
     background-size: cover;
 
-    /* Optional: Make sure the background doesn't repeat */
     background-repeat: no-repeat;
 
-    /* Optional: Center the background image */
     background-position: center;
     
     /* Optional: Set a solid color as fallback */
