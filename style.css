@@ -4,24 +4,35 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
   }
+  
   body {
     font-family: 'Segoe UI', sans-serif;
     background: #000;
     color: #fff;
     overflow-x: hidden;
-  
+  }
+
   body {
-    background-image: url('Big_Sur_6.jpg'); 
+    /* Set the background image */
+    background-image: url('Big_Sur_6.jpg'); /* Make sure the image is in the same folder as this CSS file */
+
+    /* Optional: Set the background size to cover the entire page */
     background-size: cover;
+
+    /* Optional: Make sure the background doesn't repeat */
     background-repeat: no-repeat;
+
+    /* Optional: Center the background image */
     background-position: center;
-    background-color: #f0f0f0;
+    
+    /* Optional: Set a solid color as fallback */
+    background-color: #f0f0f0; /* Light gray */
   }
   
   a {
     transition: all 0.3s ease;
   }
-
+  
   .hero {
     height: 100vh;
     display: flex;
@@ -31,16 +42,19 @@
     text-align: center;
     animation: fadeSlideIn 1s ease forwards;
   }
+  
   .hero h1 {
     font-size: 4rem;
     margin-bottom: 10px;
     animation: fadeSlideIn 1s ease 0.2s forwards;
   }
+  
   .hero p {
     font-size: 1.2rem;
     color: #ccc;
     animation: fadeSlideIn 1s ease 0.4s forwards;
   }
+  
   .hero-btn {
     margin-top: 30px;
     padding: 12px 24px;
@@ -52,14 +66,17 @@
     border-radius: 30px;
     transition: 0.3s;
   }
+  
   .hero-btn:hover {
     background: white;
     color: black;
   }
+  
   .projects-section {
     padding: 80px 20px;
     text-align: center;
   }
+  
   .projects-section h2 {
     font-size: 2.5rem;
     margin-bottom: 40px;
