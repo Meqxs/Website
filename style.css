@@ -13,13 +13,16 @@
   }
 
   body {
+    /* Set the background image */
+    background-image: url('Big_Sur_6.jpg'); /* Make sure the image is in the same folder as this CSS file */
 
-    background-image: url('Big_Sur_6.jpg'); 
-      
+    /* Optional: Set the background size to cover the entire page */
     background-size: cover;
 
+    /* Optional: Make sure the background doesn't repeat */
     background-repeat: no-repeat;
 
+    /* Optional: Center the background image */
     background-position: center;
     
     /* Optional: Set a solid color as fallback */
@@ -209,3 +212,64 @@
       transform: translateY(0);
     }
   }
+
+.blog-section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.blog-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  animation: fadeSlideIn 1s ease;
+}
+
+.blog-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.blog-card {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 30px;
+  width: 280px;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  box-shadow: 0 0 20px rgba(255,255,255,0.05);
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.blog-card.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.blog-card:hover {
+  transform: scale(1.05);
+}
+
+.blog-card h3 {
+  margin-bottom: 10px;
+}
+
+.blog-card p {
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.blog-card a {
+  border: 2px solid white;
+  padding: 8px 16px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.blog-card a:hover {
+  background: white;
+  color: black;
+}
