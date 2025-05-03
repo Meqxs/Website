@@ -3,15 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="theme-color" content="#000000" />
   <title>Meqxs Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+  <button id="theme-toggle" class="theme-toggle">Toggle Theme</button>
+
   <header class="hero section">
     <h1>Meqxs</h1>
     <p>Creative and fun developer & Contact me if you want something made for you :)</p>
     <a href="#projects" class="hero-btn">View Projects ↓</a>
+    <a href="#blog" class="hero-btn">Blog</a>
   </header>
 
   <section id="projects" class="projects-section section">
@@ -19,17 +23,59 @@
     <div class="projects-container">
       <div class="project-card">
         <h3>Project One</h3>
-        <p>I made this website using html, java, and css</p>
+        <p>TYPE HERE</p>
         <div class="project-actions">
-          <a href="#">View</a>
+          <a href="https://github.com/meqxs/project-one" target="_blank">View</a>
           <a href="#contact" class="contact-btn">Contact Me</a>
         </div>
       </div>
       <div class="project-card">
         <h3>Project Two</h3>
         <p>TYPE HERE</p>
-        <a href="#">View</a>
+        <a href="https://github.com/meqxs/project-two" target="_blank">View</a>
       </div>
+      <div class="project-card">
+        <h3>Project 3</h3>
+        <p>TYPE HERE</p>
+        <div class="project-actions">
+          <a href="https://github.com/meqxs/project-3" target="_blank">View</a>
+          <a href="#contact" class="contact-btn">Contact Me</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <h3>Project 4</h3>
+        <p>TYPE HERE</p>
+        <div class="project-actions">
+          <a href="https://github.com/meqxs/project-4" target="_blank">View</a>
+          <a href="#contact" class="contact-btn">Contact Me</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <h3>Project 5</h3>
+        <p>TYPE HERE</p>
+        <div class="project-actions">
+          <a href="https://github.com/meqxs/project-5" target="_blank">View</a>
+          <a href="#contact" class="contact-btn">Contact Me</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <h3>Project 6</h3>
+        <p>TYPE HERE</p>
+        <div class="project-actions">
+          <a href="https://github.com/meqxs/project-6" target="_blank">View</a>
+          <a href="#contact" class="contact-btn">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="blog-section section">
+    <h2>Blog</h2>
+    <div class="blog-posts">
+      <article class="blog-post">
+        <h3>First Blog Post</h3>
+        <p>This is your first blog post. You can write updates, ideas, or tutorials here!</p>
+      </article>
     </div>
   </section>
 
@@ -43,8 +89,8 @@
         <a href="https://discord.com/users/1277342381905285141" target="_blank">Open Profile</a>
       </div>
       <div class="contact-card">
-        <h3>Guns.lol</h3>
-        <p>https://guns.lol/meqxs</p>
+        <h3>Email</h3>
+        <p>Coming Soon...</p>
       </div>
     </div>
   </section>
@@ -52,6 +98,8 @@
   <footer>
     <p>© 2025 Meqxs. All rights reserved.</p>
   </footer>
+
+  <div id="visitor-counter" class="visitor-counter">Visitors: <span id="visitorCount">0</span></div>
 
   <script src="script.js"></script>
 </body>
