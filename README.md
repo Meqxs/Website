@@ -1,11 +1,30 @@
-# 👋 Welcome to My GitHub Repo
+# Max Kreiger - Developer Profile Website
 
-🚀 **Click this to go to my guns.lol**:  
+A modern, Apple-inspired developer profile website. 
 
-[![Visit My Site](https://img.shields.io/badge/visit-guns.lol%2Fmeqxs-blue?style=for-the-badge)](https://guns.lol/meqxs)
+## Features
+- Animated hero section with profile image
+- Downloadable resume button
+- Skills section with icons
+- Experience and projects sections
+- Contact form (no backend, ready for integration)
+- Social links (GitHub, LinkedIn, Email)
+- Responsive, accessible, and beautiful
 
+## Getting Started
+1. Clone or download this repository.
+2. Replace `profile.jpg` with your own photo (140x140px recommended).
+3. Replace `resume.pdf` with your own resume file.
+4. Update your email and LinkedIn in `index.html`.
+5. Open `index.html` in your browser to view your site.
 
-🚀 **Click this to go to my website**:
+## Customization
+- Edit `index.html` to change content, add sections, or update links.
+- Edit `styles.css` for color or style changes.
+- All icons are from [Font Awesome](https://fontawesome.com/).
 
-[![Visit My Site](https://img.shields.io/badge/visit-meqxs.github.io/Website/%2Fmeqxs-green?style=for-the-badge)](https://meqxs.github.io/Website/)
+## Deployment
+You can deploy this site with GitHub Pages, Vercel, Netlify, or any static hosting provider.
 
+---
+© 2024 Max Kreiger. All rights reserved. 
