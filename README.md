@@ -1,4 +1,4 @@
-# Max Kreiger - Developer Profile Website
+# Meqxs - Developer Profile Website
 
 A modern, Apple-inspired developer profile website. 
 
@@ -27,4 +27,4 @@ A modern, Apple-inspired developer profile website.
 You can deploy this site with GitHub Pages, Vercel, Netlify, or any static hosting provider.
 
 ---
-© 2024 Max Kreiger. All rights reserved. 
+© 2024 Meqxs. All rights reserved. 
