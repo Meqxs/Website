@@ -1,6 +1,6 @@
 # Meqxs - Developer Profile Website
 
-A modern, Apple-inspired developer profile website. 
+A modern developer profile website. 
 
 ## Features
 - Animated hero section with profile image
