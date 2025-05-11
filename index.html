@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meqxs - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <div class="logo" aria-label="Meqxs Home">MQ</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#hire">Hire Me</a></li>
+            </ul>
+            <div class="theme-switcher" aria-label="Theme Switcher">
+                <button class="theme-btn" data-theme="light" aria-label="Light Theme"></button>
+                <button class="theme-btn" data-theme="dark" aria-label="Dark Theme"></button>
+            </div>
+        </nav>
+        <section class="hero">
+            <h1>Meqxs</h1>
+            <p class="subtitle">Software Developer</p>
+            <div class="hero-buttons">
+                <a href="https://github.com/meqxs" target="_blank" rel="noopener" class="round-btn round-btn--primary" aria-label="View GitHub">GitHub</a>
+                <a href="#contact" class="round-btn round-btn--secondary" aria-label="Contact Me">Contact Me</a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I'm a passionate software developer with a keen eye for creating elegant solutions to complex problems. My focus is on building modern, user-friendly applications that make a difference.</p>
+        </section>
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Minecraft Development</h3>
+                    <p>Extensive experience in Minecraft modding and plugin development, creating custom gameplay experiences and server modifications.</p>
+                </div>
+                <div class="card">
+                    <h3>Fabric Modding</h3>
+                    <p>Skilled in Fabric mod development for Minecraft, creating custom mods that enhance gameplay and add new features to the game.</p>
+                </div>
+                <div class="card">
+                    <h3>Software Development</h3>
+                    <p>Full-stack development with a focus on modern web technologies and best practices.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="card-grid" id="githubProjects">
+                <!-- Projects will be loaded here by JS -->
+            </div>
+        </section>
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Git</li>
+                <li>SQL/NoSQL</li>
+            </ul>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <form id="contactForm" autocomplete="off">
+                <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name">
+                <input type="email" name="email" placeholder="Your Email" required aria-label="Your Email">
+                <textarea name="message" placeholder="Your Message" required aria-label="Your Message"></textarea>
+                <button type="submit" class="round-btn round-btn--primary">Send Message</button>
+            </form>
+            <div id="formStatus" class="form-status" aria-live="polite"></div>
+        </section>
+        <section id="hire" class="section">
+            <h2>Hire Me</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Fabric Mod Development</h3>
+                    <ul>
+                        <li>Custom Items & Blocks</li>
+                        <li>New Game Mechanics</li>
+                        <li>Performance Optimized</li>
+                        <li>Mod Compatibility</li>
+                    </ul>
+                    <a href="#contact" class="round-btn round-btn--primary">Get Started</a>
+                </div>
+                <div class="card">
+                    <h3>Plugin Development</h3>
+                    <ul>
+                        <li>Custom Commands</li>
+                        <li>Economy Systems</li>
+                        <li>Minigame Plugins</li>
+                        <li>Server Management</li>
+                    </ul>
+                    <a href="#contact" class="round-btn round-btn--primary">Get Started</a>
+                </div>
+                <div class="card">
+                    <h3>Custom Solutions</h3>
+                    <ul>
+                        <li>Modpack Development</li>
+                        <li>Server Setup</li>
+                        <li>Performance Tuning</li>
+                        <li>Technical Support</li>
+                    </ul>
+                    <a href="#contact" class="round-btn round-btn--primary">Get Started</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <p>&copy; 2024 Meqxs. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
